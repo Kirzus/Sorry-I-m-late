@@ -1,0 +1,14 @@
+.divDetails > p {
+    margin: 5px;
+    font-size: 1em;
+}
+
+.divDetails{
+    margin: 5px;
+    padding: auto;
+}
+
+.picture img {
+    width: 50px;
+    height: 50px;
+}

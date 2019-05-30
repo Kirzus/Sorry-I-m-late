@@ -1,0 +1,84 @@
+.headerCard {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border-bottom: 1px solid black; */
+    border-radius: 20px;
+}
+
+.headerCard img {
+    width: 50px;
+    height: 50px;
+}
+
+.cardComponent{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid white; */
+    box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.3) inset;
+    border-radius: 20px;
+    width: 90%;
+    margin-bottom: 1em;
+    background: -moz-linear-gradient(-45deg, rgba(255,255,255,0.88) 5%, rgba(255,255,255,0.54) 42%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(255,255,255,0.88) 5%,rgba(255,255,255,0.54) 42%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(255,255,255,0.88) 5%,rgba(255,255,255,0.54) 42%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0ffffff', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.Card-CTA {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin: 0;
+}
+
+/* boutton > margin > flex> WIP */
+.sendButton {
+    margin: 1.5rem;
+    background: rgba(0,0,0,0);
+    box-shadow: 4px 4px 12px black;
+    border: 2px black solid;
+    border-radius: 20px;
+    padding: 20px 40px 20px 40px;
+}
+
+.left-arrow {
+    font-size: 1.5em;
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.inactive{
+    opacity:.2;
+}
+
+.right-arrow {
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: 20px;
+
+}
+
+.back-btn {
+    padding: 0.5em 1em 0.5em 0.5em;
+    margin-top: 1em;
+    margin-left: 5%;
+    margin-bottom: 1em;
+    align-self: start;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.4);
+    transition: all 0.2s;
+}
+
+.back-logo {
+    margin-right: 0.5em;
+}
+
+
+@media screen and (min-width: 768px) {
+    .Cards{
+        width: 50%;
+    }
+}
