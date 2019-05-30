@@ -1,4 +1,4 @@
-# A todolist app, made simple.
+# Sorry I'm Late.
 
 Sorry I'm Late is a web app that generates (almost) real excuses for when you're late somewhere ! 
 
