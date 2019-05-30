@@ -13,4 +13,4 @@ Try it out !
 
   - - - -
 
-                              Developed by Arnaud Malanda & friends from the Wild Code School
+                          Developed by Arnaud Malanda & colleagues from the Wild Code School
