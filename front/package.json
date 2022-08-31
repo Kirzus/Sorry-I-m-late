@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "moment": "^2.24.0",
-    "moment-timezone": "^0.5.25",
+    "moment-timezone": "^0.5.35",
     "react": "^16.8.6",
     "react-collapse": "^4.0.3",
     "react-copy-to-clipboard": "^5.0.1",
